@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* 언어설정 */
+
+/* 스킵 네비게이션 */
+#skip {
+    position: relative;
+}
+
+#skip a {
+    position: absolute;
+    left: 0;
+    top: -35px;
+    border: 1px solid #fff;
+    color: #fff;
+    background: #333;
+    line-height: 20px;
+    width: 150px;
+    text-align: center;
+    padding: 3px;
+}
+
+#skip a:active,
+#skip a:focus {
+    top: 0;
+}
+
+
+/* 레이아웃 작업 */
+#wrap {
+    width: 100%;
+    color: #fff;
+    /* font-size: 30px; */
+    text-align: center;
+}
+
+#header {
+    width: 100%;
+    height: 325px;
+    background: url(../img/network2.jpg) repeat-x;
+    transition: 1s;
+    background-position: center -75px;
+}
+
+#header:hover {
+    opacity: 0.7;
+    /* filter: brightness(70%); */
+    transition: 1s;
+    /* transform: scale(1.05); */
+}
+
+
+#content {
+    width: 100%;
+    height: 800px;
+    background: #777;
+}
+
+#footer {
+    width: 100%;
+    height: 200px;
+    background: #555;
+}
+
+/* container */
+.container {
+    width: 990px;
+    margin: 0 auto;
+    height: inherit;
+    /* background: rgba(255, 255, 255, 0.3); */
+}
+
+/* content */
+#content_nav {
+    width: 100%;
+    height: 200px;
+    background: #111;
+}
+
+#content_title {
+    width: 100%;
+    height: 200px;
+    background: #222;
+}
+
+#content_banner {
+    width: 100%;
+    height: 200px;
+    background: #333;
+}
+
+#content_contents {
+    width: 100%;
+    height: 200px;
+    background: #444;
+}
+
+/* 헤더 */
+.header {}
+
+.header .header-menu {}
+
+.header .header-menu a {
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header .header-menu a:hover {
+    color: rgb(72, 235, 221);
+    transition: 0.5s;
+}
+
+.header .header-title {}
+
+.header .header-icon {}

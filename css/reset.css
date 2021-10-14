@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* 언어설정 */
+
+
+/* 여백 초기화 해주는 css 파일 */
+
+body,
+div,
+ul,
+li,
+dl,
+dt,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+input,
+legend,
+p,
+select,
+table,
+th,
+td,
+textarea,
+select,
+button,
+form {
+    padding: 0;
+    margin: 0;
+}
+
+/* 폰트 초기화 */
+body,
+input,
+textarea,
+select,
+button,
+table {
+    font-family: AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif;
+    color: #222;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* a 링크 초기화 */
+a {
+    color: #222;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(114, 20, 177);
+}
