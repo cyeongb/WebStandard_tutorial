@@ -53,3 +53,14 @@ a {
 a:hover {
     color: rgb(114, 20, 177);
 }
+
+/* 폰트 초기화 */
+body,
+input,
+select,
+textarea,
+button,
+table {
+    font-family: 'Segoe UI', sans-serif, 'Malgun Gothic', '맑은 고딕', 'dotum,'돋움';
+
+}

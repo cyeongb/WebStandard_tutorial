@@ -112,6 +112,12 @@
     transition: 0.5s;
 }
 
-.header .header-title {}
+.header .header-title {
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+    padding-top: 15px;
+}
+
 
 .header .header-icon {}
