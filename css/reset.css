@@ -54,3 +54,33 @@ a:hover {
     color: rgb(31, 219, 233);
     text-decoration: none;
 }
+
+/* IR효과 */
+/* 의미있는 이미지의 대체 텍스트 제공하는 경우 */
+.ir_pm {
+    display: block;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+/* 의미없는 이미지의 대체 텍스트,이미지가 없어도 텍스트를 보여줄 수 있음 */
+.ir_wa {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+/* 접근성을 위한 숨김 텍스트를 제공할 떄 */
+.ir_su {
+    overflow: hidden;
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}

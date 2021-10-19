@@ -107,17 +107,17 @@
 .header .header-menu {}
 
 .header .header-menu a {
-    color: #333;
+    color: #155991;
     padding: 10px;
     display: inline-block;
     font-size: 20px;
+    font-weight: 600;
     text-align: center;
 }
 
 .header .header-menu a:hover {
-    color: rgb(45, 47, 223);
-    font-weight: 600;
-    /* transition: 0.5s; */
+    color: #fff;
+    transition: 0.5s;
 }
 
 .header .header-title {
@@ -166,6 +166,26 @@
     background-size: 130px auto;
     margin: 0 auto;
 }
+
+
+
+/* 헤더 아이콘 텍스트 */
+.header .header-icon a strong {
+    font-size: 15px;
+    display: block;
+    font-weight: 700;
+    padding: 10px 0 5px 5px;
+    text-align: center;
+    color: #155991;
+}
+
+.header .header-icon a:hover,
+.header .header-icon a strong:hover {
+    transition: 0.5s;
+    filter: brightness(13);
+    color: #fff;
+}
+
 
 /* 헤더 아이콘 이미지 */
 
