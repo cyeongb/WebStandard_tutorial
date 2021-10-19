@@ -38,8 +38,8 @@ textarea,
 select,
 button,
 table {
-    font-family: AppleSDGothicNeo-Regular, 'Malgun Gothic', '맑은 고딕', dotum, '돋움', sans-serif;
-    color: #222;
+    font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif, ;
+    color: #333;
     font-size: 13px;
     line-height: 1.5;
 }
@@ -51,16 +51,6 @@ a {
 }
 
 a:hover {
-    color: rgb(114, 20, 177);
-}
-
-/* 폰트 초기화 */
-body,
-input,
-select,
-textarea,
-button,
-table {
-    font-family: 'Segoe UI', sans-serif, 'Malgun Gothic', '맑은 고딕', 'dotum,'돋움';
-
+    color: rgb(31, 219, 233);
+    text-decoration: none;
 }

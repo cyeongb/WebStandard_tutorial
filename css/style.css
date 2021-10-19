@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* 언어설정 */
 
+/* 웹폰트 가져오기 */
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap'); */
+
 /* 스킵 네비게이션 */
 #skip {
     position: relative;
@@ -28,7 +31,7 @@
 /* 레이아웃 작업 */
 #wrap {
     width: 100%;
-    color: #fff;
+    color: #333;
     /* font-size: 30px; */
     text-align: center;
 }
@@ -36,15 +39,17 @@
 #header {
     width: 100%;
     height: 325px;
-    background: url(../img/network2.jpg) repeat-x;
+    /* background: url(../img/network2.jpg) repeat-x; */
+    background-color: rgb(210, 224, 233);
     transition: 1s;
-    background-position: center -75px;
+    /* background-position: center -75px; */
 }
 
 #header:hover {
-    opacity: 0.7;
+    /* 헤더 마우스 오버시 효과 */
+    /* opacity: 0.7; */
     /* filter: brightness(70%); */
-    transition: 1s;
+    /* transition: 1s; */
     /* transform: scale(1.05); */
 }
 
@@ -97,10 +102,12 @@
 /* 헤더 */
 .header {}
 
+
+
 .header .header-menu {}
 
 .header .header-menu a {
-    color: #fff;
+    color: #333;
     padding: 10px;
     display: inline-block;
     font-size: 20px;
@@ -108,16 +115,88 @@
 }
 
 .header .header-menu a:hover {
-    color: rgb(72, 235, 221);
-    transition: 0.5s;
+    color: rgb(45, 47, 223);
+    font-weight: 600;
+    /* transition: 0.5s; */
 }
 
 .header .header-title {
     font-size: 22px;
     text-align: center;
-    color: #fff;
+    color: #333;
     padding-top: 15px;
 }
 
+/* 헤더로고 */
+.header .header-title .header-top a .main_logo {
+    background: url(../img/nia_logo01.png) no-repeat top center;
+    display: inline-block;
+    color: transparent;
+    width: 420px;
+    height: 40px;
+    margin-top: 10px;
+    /* background-size: 193px auto; */
+}
 
-.header .header-icon {}
+/* 헤더 메뉴 */
+.header .header-title a {
+    display: block;
+    /* background: #2698cb; */
+    font-size: 18px;
+    color: #333;
+}
+
+.header .header-icon {
+    text-align: center;
+    display: flex;
+    margin-top: 44px;
+}
+
+.header .header-icon a {
+    display: inline-block;
+    text-align: center;
+}
+
+.header .header-icon a .bn {
+    display: inline-block;
+    /* font-size: 13px; */
+    width: 125px;
+    height: 90px;
+    background: url(../img/main_linkbanner.png) no-repeat center top;
+    background-size: 130px auto;
+    margin: 0 auto;
+}
+
+/* 헤더 아이콘 이미지 */
+
+.header .header-icon a .bn.icon1 {
+    background-position: 0 0;
+}
+
+.header .header-icon a .bn.icon2 {
+    background-position: 0 -450px;
+}
+
+.header .header-icon a .bn.icon3 {
+    background-position: 0 -630px;
+}
+
+.header .header-icon a .bn.icon4 {
+    background-position: 0 -270px;
+}
+
+.header .header-icon a .bn.icon5 {
+    background-position: 0 -360px;
+}
+
+.header .header-icon a .bn.icon6 {
+    background-position: 0 -90px;
+}
+
+.header .header-icon a .bn.icon7 {
+    background-position: 0 -180px;
+}
+
+.header .header-icon a .bn.icon8 {
+    background-position: 0 -540px;
+}
