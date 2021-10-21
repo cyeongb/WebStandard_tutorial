@@ -36,7 +36,7 @@
     text-align: center;
 }
 
-#header {
+#head {
     width: 100%;
     height: 325px;
     /* background: url(../img/network2.jpg) repeat-x; */
@@ -45,7 +45,7 @@
     /* background-position: center -75px; */
 }
 
-#header:hover {
+#head:hover {
     /* 헤더 마우스 오버시 효과 */
     /* opacity: 0.7; */
     /* filter: brightness(70%); */
@@ -54,7 +54,7 @@
 }
 
 
-#content {
+#cont {
     /* width: 100%;
     height: 800px;
     background: #777; */
@@ -74,50 +74,50 @@
     /* background: rgba(255, 255, 255, 0.3); */
 }
 
-/* content */
-#content_nav {
+/* cont */
+#cont_nav {
     /* width: 100%;
     height: 200px;
     background: #111; */
     background: rgb(210, 224, 233);
 }
 
-#content_title {
+#cont_tit {
     width: 100%;
     height: 200px;
     /* background: #222; */
 }
 
-#content_banner {
+#cont_bn {
     width: 100%;
     height: 200px;
-    background: #333;
+    background: #fff;
 }
 
-#content_contents {
+#cont_conts {
     width: 100%;
     height: 200px;
     background: #444;
 }
 
 /* 헤더 */
-.header .header_navicon {
+.head-gnb .head_navicon {
     border: none;
     background: transparent;
     cursor: pointer;
 }
 
-.header .header_navicon:hover {
+.head-gnb .head_navicon:hover {
     filter: brightness(30);
     transition: 0.3s;
 }
 
 
-.header .header-menu {
+.head-gnb {
     display: inline-block;
 }
 
-.header .header-menu a {
+.head-gnb a {
     color: #155991;
     padding: 10px 25px;
     display: inline-block;
@@ -126,28 +126,28 @@
     text-align: center;
 }
 
-.header .header-menu a:hover {
+.head-gnb a:hover {
     color: #fff;
     transition: 0.5s;
 }
 
-.header .header-menu .header-menu-title01 {
+.head-gnb .head-gnb-tit01 {
     margin-right: 13px;
 }
 
-.header .header-menu .header-menu-title02 {
+.head-gnb .head-gnb-tit02 {
     margin-right: 15px;
 }
 
-.header .header-menu .header-menu-title03 {
+.head-gnb .head-gnb-tit03 {
     margin-right: 15px;
 }
 
-.header .header-menu .header-menu-title04 {
+.head-gnb .head-gnb-tit04 {
     margin-right: 22px;
 }
 
-.header .header-title {
+.head .head-cont .head-logo {
     font-size: 22px;
     text-align: center;
     color: #333;
@@ -155,36 +155,36 @@
 }
 
 /* 헤더로고 */
-.header .header-title .header-top a .main_logo {
+.head .head-cont .head-logo .head-top a .main_logo {
     background: url(../img/nia_logo01.png) no-repeat top center;
     display: inline-block;
     color: transparent;
     width: 420px;
     height: 40px;
     margin-top: 10px;
-    /* background-size: 193px auto; */
+    background-size: 240px auto;
 }
 
 /* 헤더 메뉴 */
-.header .header-title a {
+.head-logo a {
     display: block;
     /* background: #2698cb; */
     font-size: 18px;
     color: #333;
 }
 
-.header .header-icon {
+.head-icon {
     text-align: center;
     display: flex;
     margin-top: 44px;
 }
 
-.header .header-icon a {
+.head-icon a {
     display: inline-block;
     text-align: center;
 }
 
-.header .header-icon a .bn {
+.head-icon a .bn {
     display: inline-block;
     /* font-size: 13px; */
     width: 125px;
@@ -197,17 +197,17 @@
 
 
 /* 헤더 아이콘 텍스트 */
-.header .header-icon a strong {
+.head-icon a strong {
     font-size: 15px;
     display: block;
-    font-weight: 700;
-    padding: 10px 0 5px 5px;
+    font-weight: 900;
+    padding: 10px 0 5px 3px;
     text-align: center;
     color: #155991;
 }
 
-.header .header-icon a:hover,
-.header .header-icon a strong:hover {
+.head-icon a:hover,
+.head-icon a strong:hover {
     transition: 0.3s;
     filter: drop-shadow(3px 4px 2px gray);
     color: #fff;
@@ -216,35 +216,35 @@
 
 /* 헤더 아이콘 이미지 */
 
-.header .header-icon a .bn.icon1 {
+.head-icon a .bn.icon1 {
     background-position: 0 0;
 }
 
-.header .header-icon a .bn.icon2 {
+.head-icon a .bn.icon2 {
     background-position: 0 -450px;
 }
 
-.header .header-icon a .bn.icon3 {
+.head-icon a .bn.icon3 {
     background-position: 0 -630px;
 }
 
-.header .header-icon a .bn.icon4 {
+.head-icon a .bn.icon4 {
     background-position: 0 -270px;
 }
 
-.header .header-icon a .bn.icon5 {
+.head-icon a .bn.icon5 {
     background-position: 0 -360px;
 }
 
-.header .header-icon a .bn.icon6 {
+.head-icon a .bn.icon6 {
     background-position: 0 -90px;
 }
 
-.header .header-icon a .bn.icon7 {
+.head-icon a .bn.icon7 {
     background-position: 0 -180px;
 }
 
-.header .header-icon a .bn.icon8 {
+.head-icon a .bn.icon8 {
     background-position: 0 -540px;
 }
 
