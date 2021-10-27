@@ -147,7 +147,7 @@
     margin-right: 22px;
 }
 
-.head .head-cont .head-logo {
+.head .head-main_logo {
     font-size: 22px;
     text-align: center;
     color: #333;
@@ -155,7 +155,7 @@
 }
 
 /* 헤더로고 */
-.head .head-cont .head-logo .head-top a .main_logo {
+.head .head-main_logo .head-top a .main_logo {
     background: url(../img/nia_logo01.png) no-repeat top center;
     display: inline-block;
     color: transparent;
@@ -165,8 +165,13 @@
     background-size: 240px auto;
 }
 
+/* 헤더 검색 */
+
+/* 헤더 탑로고 */
+.head-top_logo
+
 /* 헤더 메뉴 */
-.head-logo a {
+.head-main_logo a {
     display: block;
     /* background: #2698cb; */
     font-size: 18px;
@@ -213,9 +218,20 @@
     color: #fff;
 }
 
+/* 헤더 탑 로고 */
+.head-top_logo .top_logo_digital {
+    background: url(../img/head-logo_digital.png) no-repeat center top;
+
+}
+
+.head-top_logo .top_logo_govern {
+    background: url(../img/head-logo_govern.png) no-repeat center top;
+
+}
+
 
 /* 헤더 아이콘 이미지 */
-
+/* 
 .head-icon a .bn.icon1 {
     background-position: 0 0;
 }
@@ -246,7 +262,7 @@
 
 .head-icon a .bn.icon8 {
     background-position: 0 -540px;
-}
+} */
 
 /* 전체메뉴 */
 
