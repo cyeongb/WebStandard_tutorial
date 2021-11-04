@@ -68,7 +68,7 @@
 
 /* container */
 .container {
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
     height: inherit;
     /* background: rgba(255, 255, 255, 0.3); */
@@ -89,9 +89,9 @@
 }
 
 #cont_bn {
-    width: 100%;
+    /* width: 100%;
     height: 200px;
-    background: #fff;
+    background: #fff; */
 }
 
 #cont_conts {
@@ -203,17 +203,17 @@
 
 .head-top_logo .top_logo_digital {
     background: url(../img/head-logo_digital.png) no-repeat center top;
-    width: 130px;
+    width: 100px;
     height: 30px;
-    background-size: 90px auto;
+    background-size: 80px 32px;
 
 }
 
 .head-top_logo .top_logo_govern {
     background: url(../img/head-logo_govern.png) no-repeat center top;
-    width: 130px;
+    width: 110px;
     height: 39px;
-    background-size: 90px auto;
+    background-size: 80px auto;
 }
 
 /* 헤더 바로가기  */
@@ -243,59 +243,6 @@
 }
 
 
-
-/* 헤더 아이콘 텍스트 */
-/* .head-icon a strong {
-    font-size: 15px;
-    display: block;
-    font-weight: 900;
-    padding: 10px 0 5px 3px;
-    text-align: center;
-    color: #155991;
-}
-
-.head-icon a:hover,
-.head-icon a strong:hover {
-    transition: 0.3s;
-    filter: drop-shadow(3px 4px 2px gray);
-    color: #fff;
-} */
-
-
-
-/* 헤더 아이콘 이미지 */
-/* 
-.head-icon a .bn.icon1 {
-    background-position: 0 0;
-}
-
-.head-icon a .bn.icon2 {
-    background-position: 0 -450px;
-}
-
-.head-icon a .bn.icon3 {
-    background-position: 0 -630px;
-}
-
-.head-icon a .bn.icon4 {
-    background-position: 0 -270px;
-}
-
-.head-icon a .bn.icon5 {
-    background-position: 0 -360px;
-}
-
-.head-icon a .bn.icon6 {
-    background-position: 0 -90px;
-}
-
-.head-icon a .bn.icon7 {
-    background-position: 0 -180px;
-}
-
-.head-icon a .bn.icon8 {
-    background-position: 0 -540px;
-} */
 
 /* 전체메뉴 */
 
@@ -327,3 +274,30 @@
 } */
 
 /* ie9부터 사용가능 */
+
+/* 배너 */
+.bn_nav {
+    position: relative;
+}
+
+.bn_nav a.prev {
+    position: absolute;
+    left: -80px;
+    top: 45px;
+}
+
+.bn_nav a.next {
+    position: absolute;
+    right: -80px;
+    top: 45px;
+}
+
+.bn_swiper ul {
+    overflow: hidden;
+}
+
+.bn_swiper ul li {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
